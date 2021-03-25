@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/colour">
+
+        <Preference
+            android:key="status_color"
+            android:title="@string/statusbar"
+            android:summary="@string/sumStatus" />
+
+        <Preference
+            android:key="action_color"
+            android:title="@string/actionbar"
+            android:summary="@string/sumAction"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment8</string>
+    <string name="settings">Settings</string>
+    <string name="colour">Colour Settings</string>
+    <string name="statusbar">Set Status Bar Colour</string>
+    <string name="actionbar">Set Action Bar Colour</string>
+    <string name="sumStatus">You can choose status bar colour from given set</string>
+    <string name="sumAction">You can choose action bar colour from given set</string>
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Default</item>
+    </string-array>
+
+
+    <string-array name="colors_value">
+        <item>Color.parseColor("#ff0000")</item>
+        <item>Color.parseColor("#0000ff")</item>
+        <item>Color.parseColor("#ffffff")</item>
+        <item>Color.parseColor("#FF3700B3")</item>
+    </string-array>
+
+
+</resources>
